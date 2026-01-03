@@ -1,55 +1,62 @@
+# osTicket – Post-Installation Configuration (Azure Lab)
+
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+## Project Overview
+This project demonstrates the **post-installation configuration of osTicket**, an open-source help desk ticketing system, deployed within a **Microsoft Azure virtual machine**. The lab focuses on configuring user roles, departments, ticket workflows, and system settings to simulate a real-world IT support environment.
 
+The goal of this project is to understand how help desk platforms are configured and managed after installation to support efficient ticket handling and user management.
 
-<h2>Video Demonstration</h2>
+---
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+## Video Demonstration
+- 🎥 **YouTube:** How To Configure osTicket (Post-Installation)  
+*(Update link with your actual video if available)*
 
-<h2>Environments and Technologies Used</h2>
+---
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+## Technologies & Tools Used
+- Microsoft Azure (Virtual Machines)
+- Windows 10 (21H2)
 - Internet Information Services (IIS)
+- osTicket
+- Remote Desktop Protocol (RDP)
 
-<h2>Operating Systems Used </h2>
+---
 
-- Windows 10</b> (21H2)
+## Environment Context
+- Utilized an existing Windows 10 Azure virtual machine with osTicket installed
+- Connected via Remote Desktop to perform administrative configuration
+- Accessed osTicket through the web-based admin and agent portals
 
-<h2>Post-Install Configuration Objectives</h2>
+---
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+## Post-Installation Configuration Objectives
+- Configure departments and ticket assignment rules
+- Create and manage agent accounts and roles
+- Configure users and organizations
+- Customize ticket workflows and priorities
+- Verify system functionality through test tickets
 
-<h2>Configuration Steps</h2>
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## Configuration Steps
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### 1. Admin & Agent Configuration
+- Created agent accounts and assigned appropriate roles
+- Configured departments to organize ticket routing
+- Defined permissions based on support responsibilities
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Agent and Department Configuration"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+---
+
+### 2. User & Organization Setup
+- Created end-user accounts for ticket submission
+- Configured organizations for grouping users
+- Verified user acc
+
